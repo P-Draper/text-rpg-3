@@ -3,12 +3,7 @@ dnd api list
 -------------
 -------------
 ######
-criticals
-chance to miss
 
-internal roll of 1-20 w/ 
-19 or 20 is crit
-1 or 2 is miss
 
 -------------
 character health
