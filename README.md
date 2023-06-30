@@ -19,14 +19,8 @@ experience
 levels
 -------------
 1. fix the story //mostly done
-2. add to db json //finish the young red dragon image
+2. add to db json //
 3. set states // completed
 4. form submit event listener for "password"// completed
 5. hover event listener to play music?// completed
 
-getting data into global scope
-changing background image dynamically - all in js?
-posting images when fighting etc. 
-
-# text-rpg-2
-# text-rpg-3
