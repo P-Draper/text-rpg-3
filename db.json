@@ -1,0 +1,107 @@
+{
+    "spells": [
+        {
+            "name": "Fire Bolt",
+            "desc": [
+                "You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.",
+                "This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10)."
+            ],
+            "damage": {
+                "damage_type": {
+                    "name": "Fire"
+                },
+                "damage_at_character_level": {
+                    "1": "1d10"
+                }
+            }
+        },
+        {
+            "name": "Scorching Ray",
+            "desc": [
+                "You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.",
+                "Make a ranged spell attack for each ray. On a hit, the target takes 2d6 fire damage."
+            ],
+            "damage": {
+                "damage_type": {
+                    "name": "Fire"
+                },
+                "damage_at_slot_level": {
+                    "2": "2d6"
+                }
+            }
+        },
+        {
+            "name": "Fireball",
+            "desc": [
+                "A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one.",
+                "The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
+            ],
+            "damage": {
+                "damage_type": {
+                    "name": "Fire"
+                },
+                "damage_at_slot_level": {
+                    "3": "8d6"
+                }
+            }
+        },
+        {
+            "name": "Cone of Cold",
+            "desc": [
+                "A blast of cold air erupts from your hands. Each creature in a 60-foot cone must make a constitution saving throw. A creature takes 8d8 cold damage on a failed save, or half as much damage on a successful one.",
+                "A creature killed by this spell becomes a frozen statue until it thaws."
+            ],
+            "damage": {
+                "damage_type": {
+                    "name": "Cold"
+                },
+                "damage_at_slot_level": {
+                    "5": "8d8"
+                }
+            }
+        },
+        {
+            "name": "Meteor Swarm",
+            "desc": [
+                "Blazing orbs of fire plummet to the ground at four different points you can see within range. Each creature in a 40-foot-radius sphere centered on each point you choose must make a dexterity saving throw. The sphere spreads around corners. A creature takes 20d6 fire damage and 20d6 bludgeoning damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst is affected only once.",
+                "The spell damages objects in the area and ignites flammable objects that aren't being worn or carried."
+            ],
+            "damage": {
+                "damage_type": {
+                    "name": "Fire"
+                },
+                "damage_at_slot_level": {
+                    "9": "20d6 + 20d6"
+                }
+            }
+        }              
+    ],
+    "monsters": [
+        {
+            "name": "Goblin",
+            "hit_points": 7,
+            "image": "https://toppng.com/uploads/preview/fantastic-bestiary-goblin-11549476367tqknfco8yo.png",
+            "url": "https://toppng.com/uploads/preview/fantastic-bestiary-goblin-11549476367tqknfco8yo.png"
+        },
+        {
+            "name": "Giant Spider",
+            "hit_points": 26,
+            "url": "https://p7.hiclipart.com/preview/165/331/646/giant-huntsman-spider-child-kindergarten-minibeast-wild-spider.jpg"
+        },
+        {
+            "name": "Ogre",
+            "hit_points": 59,
+            "url": "https://www.vhv.rs/dpng/d/497-4974169_midweek-monster-mayhem-ogre-transparent-background-hd-png.png"
+        },
+        {
+            "name": "Young Red Dragon",
+            "hit_points": 178,
+            "url": "/api/monsters/young-red-dragon"
+        },
+        {
+            "name": "Adult Red Dragon",
+            "hit_points": 256,
+            "url": "https://p1.hiclipart.com/preview/129/920/31/e-s-red-dragon-ii-red-dragon-png-clipart.jpg"
+        }
+    ]
+}
